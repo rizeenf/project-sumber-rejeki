@@ -8,10 +8,8 @@
             <div class="row">
                 <h5>Tabel Alasan Tidak Produktif</h5>
                 <div class="card-header-action">
-                    @can('unproductive_reason create')
-                        <a href="{{ route('unproductive-reason.create') }}" class="btn btn-primary"><box-icon name='plus' ></box-icon> Tambah Data</a>
-                    @endcan
-                    {{-- <a href="{{ route('category.trashed') }}" class="btn btn-secondary"><box-icon name='plus' ></box-icon> Data Terhapus</a> --}}
+                    <a href="{{ route('unproductive-reason.create') }}" class="btn btn-primary"><box-icon name='plus' ></box-icon> Tambah Data</a>
+                {{-- <a href="{{ route('category.trashed') }}" class="btn btn-secondary"><box-icon name='plus' ></box-icon> Data Terhapus</a> --}}
                 </div>
             </div>
         </div>

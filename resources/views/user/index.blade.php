@@ -8,12 +8,8 @@
             <div class="row">
                 <h5>Tabel Pengguna</h5>
                 <div class="card-header-action">
-                    @can('user_account create')
-                        <a href="{{ route('user.create') }}" class="btn btn-primary"><box-icon name='plus' ></box-icon> Tambah Data</a>
-                    @endcan
-                    @hasrole('developer')
-                        <a href="{{ route('user.trashed') }}" class="btn btn-secondary"><box-icon name='plus' ></box-icon> Data Terhapus</a>
-                    @endhasrole
+                    <a href="{{ route('user.create') }}" class="btn btn-primary"><box-icon name='plus' ></box-icon> Tambah Data</a>
+                    <a href="{{ route('user.trashed') }}" class="btn btn-secondary"><box-icon name='plus' ></box-icon> Data Terhapus</a>
                 </div>
             </div>
         </div>

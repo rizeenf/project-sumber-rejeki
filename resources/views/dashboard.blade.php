@@ -107,7 +107,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-6 mb-4">
+            <!-- <div class="col-lg-6 col-md-6 col-6 mb-4">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Market Share</h5>
@@ -116,30 +116,7 @@
                   
                 </div>
               </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-6 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Increment Display</h5>
-
-                  {!! $chartincrement->container() !!}
-                  
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-6 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Top Kategori Produk Display</h5>
-
-                  {!! $chartmonthlydisplay->container() !!}
-                  
-                </div>
-              </div>
-            </div>
-            
+            </div> -->
 
           </div>
 
